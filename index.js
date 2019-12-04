@@ -9,6 +9,6 @@ function nowServing(line){
   }
   else{
     return "Currently serving " + line[0] + "."
-    line.splice
+    line.splice(0, 1)
   }
 }
