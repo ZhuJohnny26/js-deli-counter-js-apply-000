@@ -8,7 +8,9 @@ function nowServing(line){
     return "There is nobody waiting to be served!"
   }
   else{
+    var name = line[0]
+    line.splice(0,1)
     return "Currently serving " + line[0] + "."
-    line.splice(0, 1)
+   
   }
 }
